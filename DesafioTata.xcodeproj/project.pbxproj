@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F08B612CF2A44D6B79DF8A5 /* Pods_DesafioTata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D511016B0D41276915DF13 /* Pods_DesafioTata.framework */; };
+		6D32228720B788FB00BC3292 /* InfosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32228620B788FB00BC3292 /* InfosCell.swift */; };
+		6D32228920B78CD600BC3292 /* AtivoFinanceiro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32228820B78CD600BC3292 /* AtivoFinanceiro.swift */; };
 		6D84AC2020B432420058B4A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84AC1F20B432420058B4A9 /* AppDelegate.swift */; };
-		6D84AC2220B432420058B4A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84AC2120B432420058B4A9 /* ViewController.swift */; };
+		6D84AC2220B432420058B4A9 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84AC2120B432420058B4A9 /* SingUpViewController.swift */; };
 		6D84AC2520B432420058B4A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D84AC2320B432420058B4A9 /* Main.storyboard */; };
 		6D84AC2720B432440058B4A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D84AC2620B432440058B4A9 /* Assets.xcassets */; };
 		6D84AC2A20B432440058B4A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D84AC2820B432440058B4A9 /* LaunchScreen.storyboard */; };
+		6D84AC3420B4356E0058B4A9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84AC3320B4356E0058B4A9 /* API.swift */; };
+		6D84AC3620B447F20058B4A9 /* cellJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84AC3520B447F20058B4A9 /* cellJSON.swift */; };
+		6D84AC3820B449BC0058B4A9 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84AC3720B449BC0058B4A9 /* ModelManager.swift */; };
+		6DDEB80F20B6E22C0052F1FF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEB80E20B6E22C0052F1FF /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D32228620B788FB00BC3292 /* InfosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfosCell.swift; sourceTree = "<group>"; };
+		6D32228820B78CD600BC3292 /* AtivoFinanceiro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtivoFinanceiro.swift; sourceTree = "<group>"; };
 		6D84AC1C20B432420058B4A9 /* DesafioTata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioTata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D84AC1F20B432420058B4A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D84AC2120B432420058B4A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D84AC2120B432420058B4A9 /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
 		6D84AC2420B432420058B4A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D84AC2620B432440058B4A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D84AC2920B432440058B4A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D84AC2B20B432440058B4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D84AC3320B4356E0058B4A9 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		6D84AC3520B447F20058B4A9 /* cellJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellJSON.swift; sourceTree = "<group>"; };
+		6D84AC3720B449BC0058B4A9 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		6DDEB80E20B6E22C0052F1FF /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		BB22FCA7104838AC0F9D795F /* Pods-DesafioTata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioTata.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioTata/Pods-DesafioTata.debug.xcconfig"; sourceTree = "<group>"; };
+		D5E4D96F6FD368B7694254F2 /* Pods-DesafioTata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioTata.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioTata/Pods-DesafioTata.release.xcconfig"; sourceTree = "<group>"; };
+		E1D511016B0D41276915DF13 /* Pods_DesafioTata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioTata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F08B612CF2A44D6B79DF8A5 /* Pods_DesafioTata.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C02723CC39436041FF2568B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB22FCA7104838AC0F9D795F /* Pods-DesafioTata.debug.xcconfig */,
+				D5E4D96F6FD368B7694254F2 /* Pods-DesafioTata.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		683F370C0A4AA5DFAE9DE53B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1D511016B0D41276915DF13 /* Pods_DesafioTata.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D32228520B788AE00BC3292 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D32228620B788FB00BC3292 /* InfosCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6D84AC1320B432420058B4A9 = {
 			isa = PBXGroup;
 			children = (
 				6D84AC1E20B432420058B4A9 /* DesafioTata */,
 				6D84AC1D20B432420058B4A9 /* Products */,
+				1C02723CC39436041FF2568B /* Pods */,
+				683F370C0A4AA5DFAE9DE53B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +98,44 @@
 		6D84AC1E20B432420058B4A9 /* DesafioTata */ = {
 			isa = PBXGroup;
 			children = (
+				6D32228520B788AE00BC3292 /* View */,
+				6DDEB80D20B6E2080052F1FF /* Controller */,
+				6D84AC3220B434DA0058B4A9 /* Model */,
+				6D84AC3120B434CE0058B4A9 /* API */,
 				6D84AC1F20B432420058B4A9 /* AppDelegate.swift */,
-				6D84AC2120B432420058B4A9 /* ViewController.swift */,
 				6D84AC2320B432420058B4A9 /* Main.storyboard */,
 				6D84AC2620B432440058B4A9 /* Assets.xcassets */,
 				6D84AC2820B432440058B4A9 /* LaunchScreen.storyboard */,
 				6D84AC2B20B432440058B4A9 /* Info.plist */,
 			);
 			path = DesafioTata;
+			sourceTree = "<group>";
+		};
+		6D84AC3120B434CE0058B4A9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6D84AC3320B4356E0058B4A9 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6D84AC3220B434DA0058B4A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D32228820B78CD600BC3292 /* AtivoFinanceiro.swift */,
+				6D84AC3520B447F20058B4A9 /* cellJSON.swift */,
+				6D84AC3720B449BC0058B4A9 /* ModelManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DDEB80D20B6E2080052F1FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D84AC2120B432420058B4A9 /* SingUpViewController.swift */,
+				6DDEB80E20B6E22C0052F1FF /* DetailsViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D84AC2E20B432440058B4A9 /* Build configuration list for PBXNativeTarget "DesafioTata" */;
 			buildPhases = (
+				8279AF2CD3304B50AD40CB93 /* [CP] Check Pods Manifest.lock */,
 				6D84AC1820B432420058B4A9 /* Sources */,
 				6D84AC1920B432420058B4A9 /* Frameworks */,
 				6D84AC1A20B432420058B4A9 /* Resources */,
+				480298A1EE4F639858DA9E71 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +206,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		480298A1EE4F639858DA9E71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DesafioTata/Pods-DesafioTata-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesafioTata/Pods-DesafioTata-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8279AF2CD3304B50AD40CB93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioTata-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D84AC1820B432420058B4A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D84AC2220B432420058B4A9 /* ViewController.swift in Sources */,
+				6D32228720B788FB00BC3292 /* InfosCell.swift in Sources */,
+				6D32228920B78CD600BC3292 /* AtivoFinanceiro.swift in Sources */,
+				6D84AC2220B432420058B4A9 /* SingUpViewController.swift in Sources */,
+				6D84AC3420B4356E0058B4A9 /* API.swift in Sources */,
+				6D84AC3820B449BC0058B4A9 /* ModelManager.swift in Sources */,
 				6D84AC2020B432420058B4A9 /* AppDelegate.swift in Sources */,
+				6D84AC3620B447F20058B4A9 /* cellJSON.swift in Sources */,
+				6DDEB80F20B6E22C0052F1FF /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +405,7 @@
 		};
 		6D84AC2F20B432440058B4A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB22FCA7104838AC0F9D795F /* Pods-DesafioTata.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +424,7 @@
 		};
 		6D84AC3020B432440058B4A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E4D96F6FD368B7694254F2 /* Pods-DesafioTata.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
